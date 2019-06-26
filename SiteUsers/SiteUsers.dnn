@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="SiteUsers" type="PersonaBar" version="1.0.0.0">
+      <friendlyName>Gsn.SiteUsers</friendlyName>
+      <description>Manager user access for multi-portal site</description>
+      <iconFile>~/Images/icon-personabarapp-32px.png</iconFile>
+      <owner>
+        <name>Gsn</name>
+        <organization>Gsn</organization>
+        <url>https://geraldncube.co.uk</url>
+        <email><![CDATA[<a href="mailto:me@geraldncube.co.uk">me@geraldncube.co.uk</a>]]></email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+        <dependency type="ManagedPackage" version="01.00.00">Dnn.PersonaBar.UI</dependency>
+      </dependencies>
+      <components>
+        <component type="PersonaBarMenu">
+          <menu>
+            <identifier>Gsn.SiteUsers</identifier>
+            <moduleName>SiteUsers</moduleName>
+            <controller>Gsn.SiteUsers.PersonaBar.MenuControllers.AdminMenuController, Gsn.SiteUsers.PersonaBar</controller>
+            <resourceKey>nav_SiteUsers</resourceKey>
+            <path>SiteUsers</path>
+            <mobileSupport>true</mobileSupport>
+            <parent>Settings</parent>
+            <order>2</order>
+          </menu>
+        </component>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\Gsn\SiteUsers</basePath>
+            <script type="Install">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>01.00.00.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+            <script type="UnInstall">
+              <path>Providers\DataProviders\SqlDataProvider</path>
+              <name>Uninstall.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+          </scripts>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/Admin/Dnn.PersonaBar/Modules/Gsn.SiteUsers</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+              <assembly>
+                  <name>Gsn.SiteUsers.dll</name>
+                  <path>bin</path>
+              </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

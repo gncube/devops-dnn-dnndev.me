@@ -1,0 +1,78 @@
+{
+  "name": "SiteUsers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Manager user access for multi-portal site",
+  "dnnModule": {
+    "fullName": "Gsn.SiteUsers",
+    "friendlyName": "SiteUsers Module",
+    "packageName": "Gsn_SiteUsers",
+    "owner": {
+      "name": "SiteUsers",
+      "organization": "Gsn",
+      "url": "https://geraldncube.co.uk.org",
+      "email": "me@geraldncube.co.uk"
+    },
+    "module": {
+      "packageName": "Gsn_SiteUsers",
+      "folderName": "Gsn/SiteUsers",
+      "azureCompatible": "true",
+      "iconFile": "DesktopModules\\Gsn\\SiteUsers\\Resources\\img\\extension.png"
+    },
+    "tempPath": "./package",
+    "packagesPath": "./_Packages",
+    "pathToAssemblies": "./bin",
+    "pathToScripts": "./Providers/DataProviders/SqlDataProvider",
+    "pathToPublish": "./bin/_PublishedWebsites/SiteUsers",
+    "pathToSupplementaryFiles": "./",
+    "excludeFilter": [
+      "gulpfile.js",
+      "web.config",
+      "{bin, bin/**}",
+      "{Providers, Providers/**}"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "dotnet clean",
+    "build": "dotnet build -f net462 -r win-x64&&yarn run build-client",
+    "build-client": "set NODE_ENV=production&&webpack -p --config _BuildScripts/webpack.config.js",
+    "package": "node _BuildScripts/dnn-package.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "archiver": "^3.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.21",
+    "copy-webpack-plugin": "^4.6.0",
+    "create-react-class": "^15.6.3",
+    "css-loader": "^2.0.1",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.8.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-spellcheck": "^0.0.11",
+    "html-webpack-plugin": "^3.2.0",
+    "marked": "^0.5.2",
+    "node-sass": "^4.11.0",
+    "react-hot-loader": "^4.3.12",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@dnnsoftware/dnn-react-common": "^2.0.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
