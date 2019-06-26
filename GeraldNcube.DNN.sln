@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.MvcModuleDemo",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Libraries.DemoLibrary", "Libraries\DemoLibrary\GSN.Libraries.DemoLibrary.csproj", "{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Libraries.DemoScheduledJob", "Libraries\DemoScheduledJob\GSN.Libraries.DemoScheduledJob.csproj", "{67947DA3-813A-4E80-B7BC-47F99396202F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67947DA3-813A-4E80-B7BC-47F99396202F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67947DA3-813A-4E80-B7BC-47F99396202F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67947DA3-813A-4E80-B7BC-47F99396202F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67947DA3-813A-4E80-B7BC-47F99396202F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 		{48663EA0-3A67-4723-9F22-3CAA4C438ECD} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C} = {1F828F98-2015-4EAD-8296-EABDD9EA4880}
+		{67947DA3-813A-4E80-B7BC-47F99396202F} = {1F828F98-2015-4EAD-8296-EABDD9EA4880}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7bc66ef2-d8a9-47f2-a316-16d3ba67f2e7}
