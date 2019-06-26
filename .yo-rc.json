@@ -1,0 +1,9 @@
+{
+  "generator-upendodnn": {
+    "promptValues": {
+      "dnnHost": "https://devops-dnn-dnndev.me",
+      "dnnRoot": "D:\\WORK\\Gerald Ncube\\devops-dnn-dnndev.me",
+      "companyName": "GeraldNcube"
+    }
+  }
+}
