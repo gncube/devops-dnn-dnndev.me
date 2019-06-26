@@ -4,9 +4,9 @@ using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Services.Localization;
 using DotNetNuke.Security;
 using System;
-using Gsn.Modules.WebformsDemo.Components;
+using GSN.Modules.WebformsDemo.Components;
 
-namespace Gsn.Modules.WebformsDemo
+namespace GSN.Modules.WebformsDemo
 {
     public partial class Settings : WebformsDemoModuleSettingsBase
     {

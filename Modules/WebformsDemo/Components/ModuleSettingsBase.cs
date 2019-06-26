@@ -4,7 +4,7 @@ using DotNetNuke.Entities.Modules;
 using DotNetNuke.Framework.JavaScriptLibraries;
 using System;
 
-namespace Gsn.Modules.WebformsDemo.Components
+namespace GSN.Modules.WebformsDemo.Components
 {
     public abstract class WebformsDemoModuleSettingsBase : ModuleSettingsBase
     {

@@ -1,9 +1,9 @@
 
 using System.Collections.Generic;
 using System.Linq;
-using Gsn.Modules.WebformsDemo.Entities;
+using GSN.Modules.WebformsDemo.Entities;
 
-namespace Gsn.Modules.WebformsDemo.Controllers
+namespace GSN.Modules.WebformsDemo.Controllers
 {
     public class WebformsDemoInfoController
     {

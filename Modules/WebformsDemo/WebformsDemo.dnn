@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="Gsn.Modules.WebformsDemo" type="Module" version="01.00.00">
+    <package name="GSN.Modules.WebformsDemo" type="Module" version="01.00.00">
       <friendlyName>WebformsDemo Module</friendlyName>
       <description>
         <![CDATA[<p>This is demo using the DNN webforms templates from Upendo Ventures</p>]]>
@@ -40,7 +40,7 @@
           <desktopModule>
             <moduleName>WebformsDemo</moduleName>
             <foldername>WebformsDemo</foldername>
-            <businessControllerClass>Gsn.Modules.WebformsDemo.Components.WebformsDemoController, Gsn.Modules.WebformsDemo</businessControllerClass>
+            <businessControllerClass>GSN.Modules.WebformsDemo.Components.WebformsDemoController, GSN.Modules.WebformsDemo</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
@@ -87,7 +87,7 @@
             <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
             <processorCommand>UpgradeModule</processorCommand>
             <attributes>
-              <businessControllerClass>Gsn.Modules.WebformsDemo.Components.WebformsDemoController, Gsn.Modules.WebformsDemo</businessControllerClass>
+              <businessControllerClass>GSN.Modules.WebformsDemo.Components.WebformsDemoController, GSN.Modules.WebformsDemo</businessControllerClass>
               <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
               <upgradeVersionsList>01.00.00</upgradeVersionsList>
             </attributes>
@@ -97,7 +97,7 @@
         <component type="Assembly">
           <assemblies>
             <assembly>
-              <name>Gsn.Modules.WebformsDemo.dll</name>
+              <name>GSN.Modules.WebformsDemo.dll</name>
               <path>bin</path>
               <version>01.00.00</version>
             </assembly>

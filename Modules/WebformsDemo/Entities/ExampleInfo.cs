@@ -3,7 +3,7 @@ using System;
 using System.Web.Caching;
 using DotNetNuke.ComponentModel.DataAnnotations;
 
-namespace Gsn.Modules.WebformsDemo.Entities
+namespace GSN.Modules.WebformsDemo.Entities
 {
     [TableName("gsn_WebformsDemo")]
     [PrimaryKey("ItemId", AutoIncrement = true)]

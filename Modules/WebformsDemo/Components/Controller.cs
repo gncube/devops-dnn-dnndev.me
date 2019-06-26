@@ -14,7 +14,7 @@ using System.Text.RegularExpressions;
 using System.Web.Hosting;
 using System.Xml;
 
-namespace Gsn.Modules.WebformsDemo.Components
+namespace GSN.Modules.WebformsDemo.Components
 {
     public sealed class WebformsDemoController
     {

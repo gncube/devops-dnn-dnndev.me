@@ -1,7 +1,7 @@
 
 using System;
 
-namespace Gsn.Modules.WebformsDemo.Entities
+namespace GSN.Modules.WebformsDemo.Entities
 {
     public interface IWebformsDemoInfo
     {

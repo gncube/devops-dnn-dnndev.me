@@ -2,7 +2,7 @@
   <PropertyGroup>
     <ModulePath>WebformsDemo</ModulePath>
     <DNNFileName>WebformsDemo</DNNFileName>
-    <PackageName>Gsn.WebformsDemo</PackageName>
+    <PackageName>GSN.WebformsDemo</PackageName>
     <Extension>zip</Extension>
     <BuildScriptsPath>$(MSBuildProjectDirectory)\..\..\Build</BuildScriptsPath>
     <WebsitePath>$(MSBuildProjectDirectory)\..\..\Website</WebsitePath>

@@ -4,9 +4,9 @@ using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Exceptions;
 using System;
 using System.Web.UI;
-using Gsn.Modules.WebformsDemo.Components;
+using GSN.Modules.WebformsDemo.Components;
 
-namespace Gsn.Modules.WebformsDemo
+namespace GSN.Modules.WebformsDemo
 {
     public partial class View : WebformsDemoModuleBase, IActionable
     {

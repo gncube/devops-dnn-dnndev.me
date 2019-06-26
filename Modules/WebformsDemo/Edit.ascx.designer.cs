@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Gsn.Modules.WebformsDemo
+namespace GSN.Modules.WebformsDemo
 {
     public partial class Edit
     {

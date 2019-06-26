@@ -1,4 +1,4 @@
-<%@ Control Language="c#" AutoEventWireup="true" CodeBehind="View.ascx.cs" Inherits="Gsn.Modules.WebformsDemo.View" %>
+<%@ Control Language="c#" AutoEventWireup="true" CodeBehind="View.ascx.cs" Inherits="GSN.Modules.WebformsDemo.View" %>
 <%@ Import Namespace="DotNetNuke.Services.Localization" %>
 <%@ Register TagPrefix="dnn" TagName="Label" Src="~/controls/labelcontrol.ascx" %>
 

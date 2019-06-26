@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DotNetNuke.Data;
 
-namespace Gsn.Modules.WebformsDemo.Entities
+namespace GSN.Modules.WebformsDemo.Entities
 {
     public class WebformsDemoInfoRepository
     {

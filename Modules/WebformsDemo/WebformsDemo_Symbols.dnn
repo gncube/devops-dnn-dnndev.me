@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="Gsn.Modules.WebformsDemo_Symbols" type="Library" version="01.00.00">
+    <package name="GSN.Modules.WebformsDemo_Symbols" type="Library" version="01.00.00">
       <friendlyName>WebformsDemo Module Symbols</friendlyName>
       <description><![CDATA[This is demo using the DNN webforms templates from Upendo Ventures]]></description>
       <owner>
