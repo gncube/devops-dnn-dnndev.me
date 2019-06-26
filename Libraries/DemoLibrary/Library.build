@@ -2,7 +2,7 @@
   <PropertyGroup>
     <ModulePath>DemoLibrary</ModulePath>
     <DNNFileName>DemoLibrary</DNNFileName>
-    <PackageName>Gsn.DemoLibrary</PackageName>
+    <PackageName>GSN.DemoLibrary</PackageName>
     <Extension>zip</Extension>
     <BuildScriptsPath>$(MSBuildProjectDirectory)\..\..\Build</BuildScriptsPath>
     <WebsitePath>$(MSBuildProjectDirectory)\..\..\Website</WebsitePath>
