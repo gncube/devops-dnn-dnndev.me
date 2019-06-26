@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+WebformsDemo Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}gsn_WebformsDemo]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}gsn_WebformsDemo];
+GO
+
+/*
+
+END OF FILE
+
+*/
