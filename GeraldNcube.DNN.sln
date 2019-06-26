@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viewsets", "Viewsets", "{C5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.WebformsDemo", "Modules\WebformsDemo\GSN.Modules.WebformsDemo.csproj", "{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.MvcModuleDemo", "Modules\MvcModuleDemo\GSN.Modules.MvcModuleDemo.csproj", "{48663EA0-3A67-4723-9F22-3CAA4C438ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +43,17 @@ Global
 		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
+		{48663EA0-3A67-4723-9F22-3CAA4C438ECD} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7bc66ef2-d8a9-47f2-a316-16d3ba67f2e7}

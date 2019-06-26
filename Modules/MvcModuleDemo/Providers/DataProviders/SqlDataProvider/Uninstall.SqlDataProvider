@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+MvcModuleDemo Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}gsn_Example]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}gsn_Example];
+GO
+
+/*
+
+END OF FILE
+
+*/
