@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gsn.Modules.WebformsDemo</name>
+    </assembly>
+    <members>
+        <member name="M:GSN.Modules.WebformsDemo.Settings.LoadSettings">
+            <summary>
+            LoadSettings loads the settings from the Database and displays them
+            </summary>
+        </member>
+        <member name="M:GSN.Modules.WebformsDemo.Settings.UpdateSettings">
+            <summary>
+            UpdateSettings saves the modified settings to the Database
+            </summary>
+        </member>
+    </members>
+</doc>

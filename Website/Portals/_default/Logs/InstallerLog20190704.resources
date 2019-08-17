@@ -1,0 +1,116 @@
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeDNN:09.03.02
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.01.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.01.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.01.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.01.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.02.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.02.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.02.SqlDataProvider
+07/04/2019 17:47:59 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.00.02.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.01.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.01.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.01.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.01.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.02.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.02.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End ExecuteScript:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.02.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpgradeVersion:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Providers\DataProviders\SqlDataProvider\09.03.02.SqlDataProvider
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.3.1
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start Application Upgrades: 9.3.2
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.03.00
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.03.00.01
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.03.00.02
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.03.01
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start DeleteFiles:09.03.02
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.03.00
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.03.00
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.03.00.01
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.03.00.01
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.03.00.02
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.3.0
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.03.00.02
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.03.01
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.3.1
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.3.1
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.03.01
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:09.03.02
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start UpdateConfig:9.3.2
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:9.3.2
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade End UpdateConfig:09.03.02
+07/04/2019 17:48:00 [INFO] DotNetNuke.Services.Upgrade.Upgrade Performing General Upgrades
+07/04/2019 17:48:01 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DDRMenu_09.03.02_Install.zip
+07/04/2019 17:48:03 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:03 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.EditBar.UI_02.00.01_Install.zip
+07/04/2019 17:48:03 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+07/04/2019 17:48:03 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:07 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.UI_02.00.01_Install.zip
+07/04/2019 17:48:14 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start AddNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:15 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_01_Web.Deprecated_09.03.02_Install.zip
+07/04/2019 17:48:16 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_AzureConnector_09.03.02_Install.zip
+07/04/2019 17:48:16 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_Console_09.03.02_Install.zip
+07/04/2019 17:48:17 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_CoreMessaging_09.03.02_Install.zip
+07/04/2019 17:48:18 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_DigitalAssetsManagement_09.03.02_Install.zip
+07/04/2019 17:48:21 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_HTML_09.03.02_Install.zip
+07/04/2019 17:48:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_HtmlEditorManager_09.03.02_Install.zip
+07/04/2019 17:48:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_Journal_09.03.02_Install.zip
+07/04/2019 17:48:24 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_MemberDirectory_09.03.02_Install.zip
+07/04/2019 17:48:25 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_ModuleCreator_09.03.02_Install.zip
+07/04/2019 17:48:28 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_RazorHost_09.03.02_Install.zip
+07/04/2019 17:48:30 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_SiteExportImport_09.03.02_Install.zip
+07/04/2019 17:48:31 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_SocialGroups_09.03.02_Install.zip
+07/04/2019 17:48:33 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\DNNCE_Website.Deprecated_09.03.02_Install.zip
+07/04/2019 17:48:33 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\GoogleAnalyticsConnector_09.03.02_Install.zip
+07/04/2019 17:48:33 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Gsn.MvcModuleDemo_01.00.00_Install.zip
+07/04/2019 17:48:34 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Gsn.MvcModuleDemo_01.00.00_Symbols.zip
+07/04/2019 17:48:34 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\GSN.WebformsDemo_01.00.00_Install.zip
+07/04/2019 17:48:35 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\GSN.WebformsDemo_01.00.00_Symbols.zip
+07/04/2019 17:48:35 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Provider\AspNetClientCapabilityProvider_09.03.02_Install.zip
+07/04/2019 17:48:36 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:36 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:36 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Provider\DNNCE_FolderProviders_09.03.02_Install.zip
+07/04/2019 17:48:36 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:48:37 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Provider\DNNConnect.CKEditorProvider_01.00.05_Install.zip
+07/04/2019 17:49:04 [INFO] DotNetNuke.Services.Installer.XmlMerge Start UpdateNode: keyAttribute=name
+07/04/2019 17:49:07 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.AdminLogs_02.00.01_Install.zip
+07/04/2019 17:49:08 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.ConfigConsole_02.00.01_Install.zip
+07/04/2019 17:49:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Connectors_02.00.01_Install.zip
+07/04/2019 17:49:09 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.CssEditor_02.00.01_Install.zip
+07/04/2019 17:49:10 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Extensions_02.00.01_Install.zip
+07/04/2019 17:49:11 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Licensing_02.00.01_Install.zip
+07/04/2019 17:49:11 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Prompt_02.00.01_Install.zip
+07/04/2019 17:49:12 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Recyclebin_02.00.01_Install.zip
+07/04/2019 17:49:13 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Roles_02.00.01_Install.zip
+07/04/2019 17:49:14 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Security_02.00.01_Install.zip
+07/04/2019 17:49:15 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Seo_02.00.01_Install.zip
+07/04/2019 17:49:16 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Servers_02.00.01_Install.zip
+07/04/2019 17:49:16 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Sites_02.00.01_Install.zip
+07/04/2019 17:49:17 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.SiteSettings_02.00.01_Install.zip
+07/04/2019 17:49:18 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.SqlConsole_02.00.01_Install.zip
+07/04/2019 17:49:19 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.TaskScheduler_02.00.01_Install.zip
+07/04/2019 17:49:20 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Themes_02.00.01_Install.zip
+07/04/2019 17:49:20 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Users_02.00.01_Install.zip
+07/04/2019 17:49:21 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Vocabularies_02.00.01_Install.zip
+07/04/2019 17:49:22 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.Pages_02.00.01_Install.zip
+07/04/2019 17:49:23 [INFO] DotNetNuke.Services.Upgrade.Upgrade Start InstallPackage:D:\WORK\Gerald Ncube\devops-dnn-dnndev.me\Website\Install\Module\Dnn.PersonaBar.SiteImportExport_02.00.01_Install.zip

@@ -1,0 +1,12 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path>bin/</path>
+      <name>Gsn.Modules.WebformsDemo.pdb</name>
+    </file>
+    <file>
+      <path>bin/</path>
+      <name>Gsn.Modules.WebformsDemo.xml</name>
+    </file>
+  </files>
+</dotnetnuke>
