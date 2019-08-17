@@ -29,45 +29,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skins", "Skins", "{EAE79EDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viewsets", "Viewsets", "{C5228275-B3D3-4550-A755-98F70CDCEA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.WebformsDemo", "Modules\WebformsDemo\GSN.Modules.WebformsDemo.csproj", "{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.MvcModuleDemo", "Modules\MvcModuleDemo\GSN.Modules.MvcModuleDemo.csproj", "{48663EA0-3A67-4723-9F22-3CAA4C438ECD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Libraries.DemoLibrary", "Libraries\DemoLibrary\GSN.Libraries.DemoLibrary.csproj", "{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Libraries.DemoScheduledJob", "Libraries\DemoScheduledJob\GSN.Libraries.DemoScheduledJob.csproj", "{67947DA3-813A-4E80-B7BC-47F99396202F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62201"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62201\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62201"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62201\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62201"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48663EA0-3A67-4723-9F22-3CAA4C438ECD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67947DA3-813A-4E80-B7BC-47F99396202F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67947DA3-813A-4E80-B7BC-47F99396202F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67947DA3-813A-4E80-B7BC-47F99396202F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67947DA3-813A-4E80-B7BC-47F99396202F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8F9DBDEF-3872-459B-8B30-E0BF12E357D2} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
-		{48663EA0-3A67-4723-9F22-3CAA4C438ECD} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
-		{BC590ED2-9100-4AB3-93A1-DA9C52862C2C} = {1F828F98-2015-4EAD-8296-EABDD9EA4880}
-		{67947DA3-813A-4E80-B7BC-47F99396202F} = {1F828F98-2015-4EAD-8296-EABDD9EA4880}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7bc66ef2-d8a9-47f2-a316-16d3ba67f2e7}
