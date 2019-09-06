@@ -1,0 +1,3 @@
+<dnn:DnnJsInclude runat="server" FilePath="js/jquery.slimmenu.min.js" ForceProvider="DnnFormBottomProvider" Priority="100" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/bootstrap.bundle.min.js" ForceProvider="DnnFormBottomProvider" Priority="110" PathNameAlias="SkinPath" />
+<dnn:DnnJsInclude runat="server" FilePath="js/custom.min.js" ForceProvider="DnnFormBottomProvider" Priority="120" PathNameAlias="SkinPath" />

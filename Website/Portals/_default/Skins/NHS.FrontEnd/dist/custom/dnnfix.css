@@ -1,0 +1,280 @@
+﻿/* ======================================================= */
+/*                   Clear DNN Default                     */
+/* ======================================================= */
+
+
+/* ControlPanel
+------------------------------------------------------------------------------*/
+
+
+/* Edit Page Styles
+------------------------------------------------------------------------------*/
+
+.dnnEditState .dnnSortable {
+    min-height: 110px !important;
+}
+
+.dnnEditState section {
+    /*margin-top: 100px;*/
+
+}
+/* Module Actions
+------------------------------------------------------------------------------*/
+.DNNEmptyPane {
+    width: 0;
+    margin: 0;
+    display: none;
+}
+
+
+/* SkinObject
+----------------------------------------------------------------------------- */
+
+.SkinObject {
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+a.SkinObject:link,
+a.SkinObject:visited,
+a.SkinObject:hover,
+a.SkinObject:active, 
+a,
+a:link,
+a:hover,
+a:visited {
+    /*color: inherit;*/
+}
+
+
+/*-------------------------------------*/
+/* ANCHOR STYLES */
+/* Fixing default.css styles on line 302 
+/* /Resources/Shared/stylesheets/dnndefault/7.0.0/default.css*/
+/*-------------------------------------*/
+
+    a, a:visited {
+        color: inherit;
+        text-decoration: inherit;
+        outline: inherit;
+    }
+
+        a:hover, a:focus, a:active {
+            color: inherit;
+            outline: inherit;
+        }
+
+p a, p a:visited {
+    line-height: inherit;
+}
+
+a.u-btn-primary, a.u-btn-black {
+    color: #fff;
+}
+
+.g-bg-dark-light-v1 a {
+    color:#efb225;
+}
+/* Normal
+----------------------------------------------------------------------------- */
+.Normal,
+.NormalDisabled,
+.NormalDeleted {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    line-height: inherit;
+}
+
+
+/* Headers
+----------------------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*color: inherit;
+    font-size: inherit; 
+    line-height: inherit; 
+    letter-spacing:inherit; 
+    margin-top:inherit;
+    margin-bottom: inherit;*/
+}
+
+
+/* List Styles
+----------------------------------------------------------------------------- */
+
+ul,
+ol,
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+ol ol {
+    margin-bottom: inherit;
+    margin-left: inherit;
+    list-style: inherit;
+}
+
+li p {
+    line-height: inherit;
+}
+
+
+/* Form styles
+----------------------------------------------------------------------------- */
+
+.dnnForm input[type="text"],
+.dnnForm input[type="password"],
+.dnnForm input[type="email"],
+.dnnForm input[type="tel"],
+.dnnForm select,
+.dnnForm textarea {
+    /*width: inherit;
+    max-width: inherit;
+    margin: inherit;
+    border: none;
+    float: inherit;
+    background-color: transparent;*/
+}
+
+.dnnForm input.dnnFormRequired {
+    border-left: 5px red solid !important;
+    padding-right: -5px !important;
+}
+
+.use_form_styles .dnnFormItem input[type="text"],
+.use_form_styles .dnnFormItem input[type="password"],
+.use_form_styles .dnnFormItem input[type="email"],
+.use_form_styles .dnnFormItem input[type="tel"],
+.use_form_styles .dnnFormItem select,
+.use_form_styles .dnnFormItem textarea {
+    width: inherit;
+    max-width: inherit;
+    margin: inherit;
+    border: inherit;
+    float: inherit;
+}
+
+.use_form_styles .dnnFormItem button,
+.dnnFormItem input[type="button"],
+.use_form_styles .dnnFormItem input[type="reset"],
+.use_form_styles .dnnFormItem input[type="submit"],
+.use_form_styles .dnnPrimaryAction,
+.use_form_styles .dnnSecondaryAction,
+.use_form_styles .dnnTertiaryAction,
+.use_form_styles ul.dnnAdminTabNav li a,
+.use_form_styles .dnnLogin .LoginTabGroup span {
+    padding: inherit;
+    margin-bottom: inherit;
+    min-width: inherit;
+    /*-webkit-border-radius: inherit;*/
+    border-radius: inherit;
+}
+
+.col-md-12.EditBarEmptyPane {
+    width: 100% !important;
+}
+
+.col-md-3.EditBarEmptyPane {
+    width: 25% !important;
+}
+
+.col-md-4.EditBarEmptyPane {
+    width: 33.33333333% !important;
+}
+
+.col-md-5.EditBarEmptyPane {
+    width: 41.66666667% !important;
+}
+
+.col-md-6.EditBarEmptyPane {
+    width: 50% !important;
+}
+
+.col-md-7.EditBarEmptyPane {
+    width: 58.33333333% !important;
+}
+
+.col-md-8.EditBarEmptyPane {
+    width: 66.66666667% !important;
+}
+
+.col-md-9.EditBarEmptyPane {
+    width: 75% !important;
+}
+
+
+/* dnnModuleDialog  
+-------------------------------------------------------------------------------*/
+
+
+
+/* Primary Action */
+
+/*.dnnPrimaryAction, .dnnFormItem input[type="submit"], a.dnnPrimaryAction {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #efb225;
+    color: #fff !important;
+    text-transform: uppercase !important;
+}
+
+    .dnnPrimaryAction:hover, .dnnFormItem input[type="submit"]:hover, a.dnnPrimaryAction:hover {
+        border-color: #0D569E;
+        background: #6cb6f3;  Old browsers 
+        background: -moz-linear-gradient(top, #6cb6f3 0%, #4387d2 100%);  FF3.6+ 
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cb6f3), color-stop(100%,#4387d2));  Chrome,Safari4+ 
+        background: -webkit-linear-gradient(top, #6cb6f3 0%,#4387d2 100%);  Chrome10+,Safari5.1+ 
+        background: linear-gradient(top, #6cb6f3 0%,#4387d2 100%);  W3C 
+        color: #fff;
+    }
+
+    .dnnPrimaryAction:active, .dnnFormItem input[type="submit"]:active, a.dnnPrimaryAction:active {
+        border-color: #0D569E;
+        background: #1f66be;  Old browsers 
+        background: -moz-linear-gradient(top, #1f66be 0%, #3085e0 100%);  FF3.6+ 
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f66be), color-stop(100%,#3085e0));  Chrome,Safari4+ 
+        background: -webkit-linear-gradient(top, #1f66be 0%,#3085e0 100%);  Chrome10+,Safari5.1+ 
+        background: linear-gradient(top, #1f66be 0%,#3085e0 100%);  W3C 
+        -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+        color: #fff;
+    }
+
+    .dnnPrimaryAction[disabled], .dnnPrimaryAction[disabled]:hover, .dnnPrimaryAction[disabled]:active {
+        background: #ccc !important;
+        border: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        color: #aaa !important;
+        text-shadow: none;
+    }*/
+
+
+div.actionMenu ul.dnn_mact > li.actionMenuMove > ul li {
+    padding: 4px 10px 10px 15px !important;
+    margin: 0;
+    height: 28px;
+}
+

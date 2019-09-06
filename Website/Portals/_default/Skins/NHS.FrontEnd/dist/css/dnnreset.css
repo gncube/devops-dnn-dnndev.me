@@ -1,0 +1,89 @@
+﻿/* Body 
+------------------------------------------------------------------------------*/
+body {
+    /*background-color: inherit;*/
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    /*padding-top: inherit;
+    padding-bottom: inherit;*/
+}
+
+/* Module Actions
+------------------------------------------------------------------------------*/
+.DNNEmptyPane {
+    width: 0;
+    margin: 0;
+    display: none;
+}
+
+
+
+/* Headers
+----------------------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+
+/* List Styles
+----------------------------------------------------------------------------- */
+
+ul,
+ol,
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+ol ol {
+    margin-bottom: inherit;
+    margin-left: inherit;
+    list-style: inherit;
+}
+
+li p {
+    line-height: inherit;
+}
+
+
+/* Module Actions
+----------------------------------------------------------------------------------------------*/
+
+div.actionMenu ul.dnn_mact > li.actionMenuMove > ul li {
+    padding: 8px 0 10px 10px;
+    height: 30px;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+    border-top: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Arial;
+    line-height: 18px;
+    text-shadow: none;
+}
+
+
+.nhsuk-section--white {
+    background-color: #fff;
+}
+
+@media (min-width: 40.0625em) 
+{
+    .nhsuk-section {
+        padding-bottom: 48px;
+        padding-top: 48px;
+    }
+}
