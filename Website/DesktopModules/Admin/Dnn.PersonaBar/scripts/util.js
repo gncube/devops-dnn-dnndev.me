@@ -491,11 +491,7 @@ define('css', {
             path = config.baseUrl + path;
         }
 
-        if (typeof config.urlArgs === 'string') {
-            path = path + '?' + config.urlArgs;
-        }
-        inject(path);
-
+        inject(path + '?' + config.urlArgs);
         load(true);
     },
     pluginBuilder: './css-build'
