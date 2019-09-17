@@ -1,6 +1,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ModulePath>Documents</ModulePath>
+    <ModulePath>GSN\Documents</ModulePath>
     <DNNFileName>Documents</DNNFileName>
     <PackageName>GSN.Documents</PackageName>
     <Extension>zip</Extension>

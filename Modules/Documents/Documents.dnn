@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="GSN.Modules.Documents" type="Module" version="01.00.00">
+    <package name="GSN.Modules.Documents" type="Module" version="01.01.00">
       <friendlyName>Documents Module</friendlyName>
       <description>
         <![CDATA[<p>Simple document uploader module</p>]]>
       </description>
-      <iconFile>DesktopModules/Documents/Images/logo.png</iconFile>
+      <iconFile>DesktopModules/GSN/Documents/Images/logo.png</iconFile>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
@@ -22,7 +22,7 @@
       <components>
         <component type="Script">
           <scripts>
-            <basePath>DesktopModules\Documents</basePath>
+            <basePath>DesktopModules\GSN\Documents</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>01.00.00.SqlDataProvider</name>
@@ -39,7 +39,7 @@
         <component type="Module">
           <desktopModule>
             <moduleName>Documents</moduleName>
-            <foldername>Documents</foldername>
+            <foldername>GSN</foldername>
             <businessControllerClass>GSN.Modules.Documents.Components.DocumentsController, GSN.Modules.Documents</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
@@ -49,7 +49,7 @@
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DesktopModules/Documents/View.ascx</controlSrc>
+                    <controlSrc>DesktopModules/GSN/Documents/View.ascx</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle />
                     <controlType>View</controlType>
@@ -59,7 +59,7 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Edit</controlKey>
-                    <controlSrc>DesktopModules/Documents/Edit.ascx</controlSrc>
+                    <controlSrc>DesktopModules/GSN/Documents/Edit.ascx</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle>Edit Documents Content</controlTitle>
                     <controlType>Edit</controlType>
@@ -71,7 +71,7 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Settings</controlKey>
-                    <controlSrc>DesktopModules/Documents/Settings.ascx</controlSrc>
+                    <controlSrc>DesktopModules/GSN/Documents/Settings.ascx</controlSrc>
                     <supportsPartialRendering>True</supportsPartialRendering>
                     <controlTitle>Documents Settings</controlTitle>
                     <controlType>Edit</controlType>
@@ -106,7 +106,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules\Documents</basePath>
+            <basePath>DesktopModules\GSN\Documents</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>

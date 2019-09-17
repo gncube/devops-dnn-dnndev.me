@@ -120,4 +120,13 @@
   <data name="ControlTitle_settings.Text" xml:space="preserve">
     <value>Edit Documents Module</value>
   </data>
+  <data name="Name.ErrorMessage" xml:space="preserve">
+    <value>&amp;lt;br&amp;gt;You Must Enter A Title For The Document</value>
+  </data>
+  <data name="plName.Help" xml:space="preserve">
+    <value>Enter a name for the Document</value>
+  </data>
+  <data name="plName.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
 </root>
