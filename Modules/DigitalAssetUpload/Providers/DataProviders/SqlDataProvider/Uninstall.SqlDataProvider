@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+DigitalAssetUpload Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}GSN_DigitalAssetUpload]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}GSN_DigitalAssetUpload];
+GO
+
+/*
+
+END OF FILE
+
+*/

@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skins", "Skins", "{EAE79EDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viewsets", "Viewsets", "{C5228275-B3D3-4550-A755-98F70CDCEA69}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{B3549D50-9B8C-48E6-A00F-DEC8F118D013}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_62201"
@@ -50,28 +50,19 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{7B6
 		SlnRelativePath = "Website\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.Documents", "Modules\Documents\GSN.Modules.Documents.csproj", "{6A64B9C7-F9B4-48CE-859E-804D828F50AF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B6C720F-4EA6-4008-B6DF-1A3EC32049CE}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{6A64B9C7-F9B4-48CE-859E-804D828F50AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A64B9C7-F9B4-48CE-859E-804D828F50AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A64B9C7-F9B4-48CE-859E-804D828F50AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A64B9C7-F9B4-48CE-859E-804D828F50AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3549D50-9B8C-48E6-A00F-DEC8F118D013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3549D50-9B8C-48E6-A00F-DEC8F118D013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3549D50-9B8C-48E6-A00F-DEC8F118D013}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3549D50-9B8C-48E6-A00F-DEC8F118D013}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6A64B9C7-F9B4-48CE-859E-804D828F50AF} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7bc66ef2-d8a9-47f2-a316-16d3ba67f2e7}
