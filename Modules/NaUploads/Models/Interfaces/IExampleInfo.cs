@@ -1,7 +1,7 @@
 
 using System;
 
-namespace GSN.Modules.NaUploads.Models
+namespace GSN.Modules.NAUploads.Models
 {
     public interface IExampleInfo
     {

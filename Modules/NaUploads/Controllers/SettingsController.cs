@@ -5,7 +5,7 @@ using DotNetNuke.Web.Mvc.Framework.ActionFilters;
 using DotNetNuke.Web.Mvc.Framework.Controllers;
 using System.Web.Mvc;
 
-namespace GSN.Modules.NaUploads.Controllers
+namespace GSN.Modules.NAUploads.Controllers
 {
     [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Edit)]
     [DnnHandleError]
@@ -19,8 +19,8 @@ namespace GSN.Modules.NaUploads.Controllers
         public ActionResult Settings()
         {
             var settings = new Models.Settings();
-            settings.Setting1 = ModuleContext.Configuration.ModuleSettings.GetValueOrDefault("GSN.Modules.NaUploads_Setting1", false);
-            settings.Setting2 = ModuleContext.Configuration.ModuleSettings.GetValueOrDefault("GSN.Modules.NaUploads_Setting2", System.DateTime.Now);
+            settings.Setting1 = ModuleContext.Configuration.ModuleSettings.GetValueOrDefault("GSN.Modules.NAUploads_Setting1", false);
+            settings.Setting2 = ModuleContext.Configuration.ModuleSettings.GetValueOrDefault("GSN.Modules.NAUploads_Setting2", System.DateTime.Now);
 
             return View(settings);
         }
@@ -37,8 +37,8 @@ namespace GSN.Modules.NaUploads.Controllers
         {
 			var security = new PortalSecurity();
 			
-            ModuleContext.Configuration.ModuleSettings["GSN.Modules.NaUploads_Setting1"] = security.InputFilter(settings.Setting1.ToString().Trim(), PortalSecurity.FilterFlag.NoMarkup);
-            ModuleContext.Configuration.ModuleSettings["GSN.Modules.NaUploads_Setting2"] = security.InputFilter(settings.Setting2.ToUniversalTime().ToString("u"), PortalSecurity.FilterFlag.NoMarkup);
+            ModuleContext.Configuration.ModuleSettings["GSN.Modules.NAUploads_Setting1"] = security.InputFilter(settings.Setting1.ToString().Trim(), PortalSecurity.FilterFlag.NoMarkup);
+            ModuleContext.Configuration.ModuleSettings["GSN.Modules.NAUploads_Setting2"] = security.InputFilter(settings.Setting2.ToUniversalTime().ToString("u"), PortalSecurity.FilterFlag.NoMarkup);
 
             return RedirectToDefaultRoute();
         }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NaUploads Modules Extension for DNN")]
-[assembly: AssemblyDescription("NA Uploads module using MVC template upendodnn")]
+[assembly: AssemblyTitle("NAUploads Modules Extension for DNN")]
+[assembly: AssemblyDescription("Nursing Associates Uploads manager module using MVC template upendodnn")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GSN")]
-[assembly: AssemblyProduct("NaUploads Modules Extension for DNN")]
+[assembly: AssemblyProduct("NAUploads Modules Extension for DNN")]
 [assembly: AssemblyCopyright("Copyright 2019 GSN")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3297A1B3-43E1-4AA6-8356-C5482068236B")]
+[assembly: Guid("39ED384F-3A70-41B2-BB13-D62C238D387D")]
 
 // Version information for an assembly consists of the following four values:
 //

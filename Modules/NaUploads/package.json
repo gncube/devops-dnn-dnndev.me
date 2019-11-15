@@ -1,11 +1,11 @@
 {
-  "name": "GSN.Modules.NaUploads",
+  "name": "GSN.Modules.NAUploads",
   "version": "01.00.00",
-  "description": "NA Uploads module using MVC template upendodnn",
+  "description": "Nursing Associates Uploads manager module using MVC template upendodnn",
   "dnnModule": {
-    "fullName": "GSN.Modules.NaUploads",
-    "friendlyName": "NaUploads Module",
-    "packageName": "GSN.Modules.NaUploads",
+    "fullName": "GSN.Modules.NAUploads",
+    "friendlyName": "NAUploads Module",
+    "packageName": "GSN.Modules.NAUploads",
     "owner": {
       "name": "GSN",
       "organization": "GSN",
@@ -13,16 +13,16 @@
       "email": "me@geraldncube.co.uk"
     },
     "module": {
-      "packageName": "GSN.Modules.NaUploads",
-      "folderName": "GSN.Modules.NaUploads",
+      "packageName": "GSN.Modules.NAUploads",
+      "folderName": "GSN.Modules.NAUploads",
       "azureCompatible": "true",
-      "iconFile": "DesktopModules\\MVC\\GSN.Modules.NaUploads\\Images\\logo.png"
+      "iconFile": "DesktopModules\\MVC\\GSN.Modules.NAUploads\\Images\\logo.png"
     },
     "tempPath": "./package",
     "packagesPath": "./_Packages",
     "pathToAssemblies": "./bin",
     "pathToScripts": "./Providers/DataProviders/SqlDataProvider",
-    "pathToPublish": "./bin/_PublishedWebsites/NaUploads",
+    "pathToPublish": "./bin/_PublishedWebsites/NAUploads",
     "pathToSupplementaryFiles": "./",
     "excludeFilter": [
       "gulpfile.js",

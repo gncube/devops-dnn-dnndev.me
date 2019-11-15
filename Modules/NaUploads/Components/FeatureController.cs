@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Services.Search;
 
-namespace GSN.Modules.NaUploads.Components
+namespace GSN.Modules.NAUploads.Components
 {
-    public class NaUploadsController 
+    public class NAUploadsController 
     {
 
     }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="GSN.Modules.NaUploads" type="Module" version="01.00.00">
-      <friendlyName>NaUploads Module</friendlyName>
+    <package name="GSN.Modules.NAUploads" type="Module" version="01.00.00">
+      <friendlyName>NAUploads Module</friendlyName>
       <description>
-        <![CDATA[<p>NA Uploads module using MVC template upendodnn</p>]]>
+        <![CDATA[<p>Nursing Associates Uploads manager module using MVC template upendodnn</p>]]>
       </description>
-      <iconFile>DesktopModules/MVC/GSN.Modules.NaUploads/Images/logo.png</iconFile>
+      <iconFile>DesktopModules/MVC/GSN.Modules.NAUploads/Images/logo.png</iconFile>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
@@ -22,7 +22,7 @@
       <components>
         <component type="Script">
           <scripts>
-            <basePath>DesktopModules\MVC\GSN.Modules.NaUploads</basePath>
+            <basePath>DesktopModules\MVC\GSN.Modules.NAUploads</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>01.00.00.SqlDataProvider</name>
@@ -38,18 +38,18 @@
 
         <component type="Module">
           <desktopModule>
-            <moduleName>NaUploads Module</moduleName>
-            <foldername>GSN.Modules.NaUploads</foldername>
-            <businessControllerClass>GSN.Modules.NaUploads.Components.NaUploadsController, GSN.Modules.NaUploads</businessControllerClass>
+            <moduleName>NAUploads Module</moduleName>
+            <foldername>GSN.Modules.NAUploads</foldername>
+            <businessControllerClass>GSN.Modules.NAUploads.Components.NAUploadsController, GSN.Modules.NAUploads</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>NaUploads Module</friendlyName>
+                <friendlyName>NAUploads Module</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>GSN.Modules.NaUploads.Controllers/Example/Index.mvc</controlSrc>
+                    <controlSrc>GSN.Modules.NAUploads.Controllers/Example/Index.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle />
                     <controlType>View</controlType>
@@ -59,9 +59,9 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Edit</controlKey>
-                    <controlSrc>GSN.Modules.NaUploads.Controllers/Example/Edit.mvc</controlSrc>
+                    <controlSrc>GSN.Modules.NAUploads.Controllers/Example/Edit.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>Edit NaUploads Content</controlTitle>
+                    <controlTitle>Edit NAUploads Content</controlTitle>
                     <controlType>Edit</controlType>
                     <iconFile />
                     <helpUrl />
@@ -70,9 +70,9 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Settings</controlKey>
-                    <controlSrc>GSN.Modules.NaUploads.Controllers/Settings/Settings.mvc</controlSrc>
+                    <controlSrc>GSN.Modules.NAUploads.Controllers/Settings/Settings.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>NaUploads Settings</controlTitle>
+                    <controlTitle>NAUploads Settings</controlTitle>
                     <controlType>Edit</controlType>
                     <iconFile />
                     <helpUrl />
@@ -86,7 +86,7 @@
             <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
             <processorCommand>UpgradeModule</processorCommand>
             <attributes>
-              <businessControllerClass>GSN.Modules.NaUploads.Components.NaUploadsController, GSN.Modules.NaUploads</businessControllerClass>
+              <businessControllerClass>GSN.Modules.NAUploads.Components.NAUploadsController, GSN.Modules.NAUploads</businessControllerClass>
               <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
               <upgradeVersionsList>01.00.00</upgradeVersionsList>
             </attributes>
@@ -96,7 +96,7 @@
         <component type="Assembly">
           <assemblies>
             <assembly>
-              <name>GSN.Modules.NaUploads.dll</name>
+              <name>GSN.Modules.NAUploads.dll</name>
               <path>bin</path>
               <version>01.00.00</version>
             </assembly>
@@ -105,7 +105,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/MVC/GSN.Modules.NaUploads</basePath>
+            <basePath>DesktopModules/MVC/GSN.Modules.NAUploads</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>

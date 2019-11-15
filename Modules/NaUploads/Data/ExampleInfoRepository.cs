@@ -2,10 +2,10 @@
 using DotNetNuke.Data;
 using DotNetNuke.Framework;
 using System.Collections.Generic;
-using GSN.Modules.NaUploads.Data;
-using GSN.Modules.NaUploads.Models;
+using GSN.Modules.NAUploads.Data;
+using GSN.Modules.NAUploads.Models;
 
-namespace GSN.Modules.NaUploads.Data
+namespace GSN.Modules.NAUploads.Data
 {
     public interface IExampleInfoRepository
     {

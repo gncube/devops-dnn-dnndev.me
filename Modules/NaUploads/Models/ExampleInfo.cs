@@ -3,7 +3,7 @@ using DotNetNuke.ComponentModel.DataAnnotations;
 using System;
 using System.Web.Caching;
 
-namespace GSN.Modules.NaUploads.Models
+namespace GSN.Modules.NAUploads.Models
 {
     [TableName("GSN_Example")]
     //setup the primary key for table

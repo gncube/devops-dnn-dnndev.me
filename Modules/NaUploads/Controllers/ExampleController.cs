@@ -4,11 +4,11 @@ using DotNetNuke.Web.Mvc.Framework.ActionFilters;
 using DotNetNuke.Web.Mvc.Framework.Controllers;
 using System;
 using System.Web.Mvc;
-using GSN.Modules.NaUploads.Components;
-using GSN.Modules.NaUploads.Data;
-using GSN.Modules.NaUploads.Models;
+using GSN.Modules.NAUploads.Components;
+using GSN.Modules.NAUploads.Data;
+using GSN.Modules.NAUploads.Models;
 
-namespace GSN.Modules.NaUploads.Controllers
+namespace GSN.Modules.NAUploads.Controllers
 {
     [DnnHandleError]
     public class ExampleController : DnnController

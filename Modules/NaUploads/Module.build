@@ -1,8 +1,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ModulePath>GSN.Modules.NaUploads</ModulePath>
-    <DNNFileName>NaUploads</DNNFileName>
-    <PackageName>GSN.NaUploads</PackageName>
+    <ModulePath>GSN.Modules.NAUploads</ModulePath>
+    <DNNFileName>NAUploads</DNNFileName>
+    <PackageName>GSN.NAUploads</PackageName>
     <Extension>zip</Extension>
     <BuildScriptsPath>$(MSBuildProjectDirectory)\..\..\Build</BuildScriptsPath>
     <WebsitePath>$(MSBuildProjectDirectory)\..\..\Website</WebsitePath>
