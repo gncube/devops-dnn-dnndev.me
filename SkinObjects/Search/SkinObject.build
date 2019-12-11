@@ -1,6 +1,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ModulePath>Search</ModulePath>
+    <ModulePath>GSN\Search</ModulePath>
     <DNNFileName>Search</DNNFileName>
     <PackageName>GSN.Search</PackageName>
     <Extension>zip</Extension>

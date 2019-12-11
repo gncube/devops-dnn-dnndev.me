@@ -3,7 +3,7 @@
   <packages>
     <package name="GSN.SkinObjects.Search" type="SkinObject" version="01.00.00">
       <friendlyName>Search</friendlyName>
-      <description>Search skinobject using gsndnn</description>
+      <description>Simple search skinobject</description>
       <iconFile>~/DesktopModules/GSN/Search/Images/logo.png</iconFile>
       <owner>
         <name>GSN</name>

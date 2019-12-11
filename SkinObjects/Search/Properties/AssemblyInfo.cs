@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Search SkinObjects Extension for DNN")]
-[assembly: AssemblyDescription("Search skinobject using gsndnn")]
+[assembly: AssemblyDescription("Simple search skinobject")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GSN")]
 [assembly: AssemblyProduct("Search SkinObjects Extension for DNN")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("119F396F-8D05-42D9-B930-D324746DF8B0")]
+[assembly: Guid("F791EFDA-E482-453E-A95E-C710E4FB875A")]
 
 // Version information for an assembly consists of the following four values:
 //
