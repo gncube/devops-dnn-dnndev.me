@@ -17,7 +17,8 @@
       "dnnRoot": "C:\\WORK\\geraldn3\\devops-dnn-dnndev.me",
       "company": "G S N",
       "companyUrl": "https://geraldncube.co.uk",
-      "emailAddy": "me@geraldncube.co.uk"
+      "emailAddy": "me@geraldncube.co.uk",
+      "objectPrefix": "GSN"
     }
   }
 }
