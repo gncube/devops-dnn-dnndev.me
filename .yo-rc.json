@@ -10,5 +10,14 @@
       "emailAddy": "me@geraldncube.co.uk",
       "menuLinkName": "Site Users"
     }
+  },
+  "generator-gsndnn": {
+    "promptValues": {
+      "dnnHost": "https://devops-dnn-dnndev.me",
+      "dnnRoot": "C:\\WORK\\geraldn3\\devops-dnn-dnndev.me",
+      "company": "G S N",
+      "companyUrl": "https://geraldncube.co.uk",
+      "emailAddy": "me@geraldncube.co.uk"
+    }
   }
 }
