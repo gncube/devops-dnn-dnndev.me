@@ -1,4 +1,4 @@
-@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage <IEnumerable<GSN.Modules.Solumba.Models.ExampleInfo>> 
+@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage <IEnumerable<GSN.Modules.Solumba.Models.SolumbaInfo>> 
 
 @using System.Text.RegularExpressions
 @using DotNetNuke.Web.Mvc.Helpers 
@@ -20,8 +20,8 @@
                         if (Dnn.ModuleContext.IsEditable) 
 						{ 
 							<div>
-								<a href="@Url.Action("Edit", "Example", new {ctl = "Edit", itemId = item.ExampleId})">@Dnn.LocalizeString("EditItem")</a>  
-								<a href="@Url.Action("Delete", "Example", new {itemId = item.ExampleId})">@Dnn.LocalizeString("DeleteItem")</a>  
+								<a href="@Url.Action("Edit", "Solumba", new {ctl = "Edit", itemId = item.SolumbaId})">@Dnn.LocalizeString("EditItem")</a>  
+								<a href="@Url.Action("Delete", "Solumba", new {itemId = item.SolumbaId})">@Dnn.LocalizeString("DeleteItem")</a>  
 							</div> 
                         }
                     } 
