@@ -1,7 +1,7 @@
 {
   "name": "Search",
   "version": "01.00.00",
-  "description": "Simple search skinobject",
+  "description": "Simple search module",
   "dnnModule": {
     "fullName": "GSN.SkinObjects.Search",
     "friendlyName": "Search Module",
