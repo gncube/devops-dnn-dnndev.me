@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Solumba Modules Extension for DNN")]
-[assembly: AssemblyDescription("Firfth attempt")]
+[assembly: AssemblyTitle("SolumbaModules Extension for DNN")]
+[assembly: AssemblyDescription("Solumbathe sixty time")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GSN")]
-[assembly: AssemblyProduct("Solumba Modules Extension for DNN")]
+[assembly: AssemblyProduct("SolumbaModules Extension for DNN")]
 [assembly: AssemblyCopyright("Copyright 2019 GSN")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("42883A8C-640A-4411-8038-98CA122C40D7")]
+[assembly: Guid("0677760C-8B15-45DB-A13B-C8B14D5CE5BA")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -2,9 +2,9 @@
 <dotnetnuke type="Package" version="6.0">
   <packages>
     <package name="GSN.Modules.Solumba" type="Module" version="01.00.00">
-      <friendlyName>Solumba Module</friendlyName>
+      <friendlyName>SolumbaModule</friendlyName>
       <description>
-        <![CDATA[<p>Firfth attempt</p>]]>
+        <![CDATA[<p>Solumbathe sixty time</p>]]>
       </description>
       <iconFile>DesktopModules/MVC/GSN/Solumba/Images/logo.png</iconFile>
       <owner>
@@ -38,13 +38,13 @@
 
         <component type="Module">
           <desktopModule>
-            <moduleName>Solumba Module</moduleName>
+            <moduleName>SolumbaModule</moduleName>
             <foldername>Solumba</foldername>
             <businessControllerClass>GSN.Modules.Solumba.Components.SolumbaController, GSN.Modules.Solumba</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>Solumba Module</friendlyName>
+                <friendlyName>SolumbaModule</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
@@ -61,7 +61,7 @@
                     <controlKey>Edit</controlKey>
                     <controlSrc>GSN.Modules.Solumba.Controllers/Example/Edit.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>Edit Solumba Content</controlTitle>
+                    <controlTitle>Edit SolumbaContent</controlTitle>
                     <controlType>Edit</controlType>
                     <iconFile />
                     <helpUrl />
@@ -72,7 +72,7 @@
                     <controlKey>Settings</controlKey>
                     <controlSrc>GSN.Modules.Solumba.Controllers/Settings/Settings.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>Solumba Settings</controlTitle>
+                    <controlTitle>SolumbaSettings</controlTitle>
                     <controlType>Edit</controlType>
                     <iconFile />
                     <helpUrl />

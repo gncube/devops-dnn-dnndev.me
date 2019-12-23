@@ -11,58 +11,58 @@ using GSN.Modules.Solumba.Models;
 namespace GSN.Modules.Solumba.Controllers
 {
     [DnnHandleError]
-    public class SolumbaController : DnnController
+public class SolumbaController : DnnController
     {
 
         public ActionResult Delete(int itemId)
-        {
+{
             SolumbaInfoRepository.Instance.DeleteItem(itemId, ModuleContext.ModuleId);
-            return RedirectToDefaultRoute();
-        }
+    return RedirectToDefaultRoute();
+}
 
-        public ActionResult Edit(int itemId = -1)
-        {
-            DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(CommonJs.DnnPlugins);
+public ActionResult Edit(int itemId = -1)
+{
+    DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(CommonJs.DnnPlugins);
 
-            var item = (itemId == -1)
-                 ? new SolumbaInfo { ModuleId = ModuleContext.ModuleId }
+    var item = (itemId == -1)
+         ? new SolumbaInfo { ModuleId = ModuleContext.ModuleId }
                  : SolumbaInfoRepository.Instance.GetItem(itemId, ModuleContext.ModuleId);
 
-            return View(item);
-        }
+    return View(item);
+}
 
-        [HttpPost]
-        [DotNetNuke.Web.Mvc.Framework.ActionFilters.ValidateAntiForgeryToken]
-        public ActionResult Edit(SolumbaInfo item)
-        {
-            if (item.SolumbaId == -1)
-            {
-                item.CreatedByUserId = User.UserID;
-                item.CreatedOnDate = DateTime.UtcNow;
-                item.LastUpdatedByUserId = User.UserID;
-                item.LastUpdatedOnDate = DateTime.UtcNow;
+[HttpPost]
+[DotNetNuke.Web.Mvc.Framework.ActionFilters.ValidateAntiForgeryToken]
+public ActionResult Edit(SolumbaInfo item)
+{
+    if (item.SolumbaId == -1)
+    {
+        item.CreatedByUserId = User.UserID;
+        item.CreatedOnDate = DateTime.UtcNow;
+        item.LastUpdatedByUserId = User.UserID;
+        item.LastUpdatedOnDate = DateTime.UtcNow;
 
                 SolumbaInfoRepository.Instance.CreateItem(item);
-            }
-            else
-            {
-                var existingItem = SolumbaInfoRepository.Instance.GetItem(item.SolumbaId, item.ModuleId);
-                existingItem.LastUpdatedByUserId = User.UserID;
-                existingItem.LastUpdatedOnDate = DateTime.UtcNow;
-                existingItem.Title = item.Title;
-                existingItem.Description = item.Description;
+    }
+    else
+    {
+        var existingItem = SolumbaInfoRepository.Instance.GetItem(item.SolumbaId, item.ModuleId);
+        existingItem.LastUpdatedByUserId = User.UserID;
+        existingItem.LastUpdatedOnDate = DateTime.UtcNow;
+        existingItem.Title = item.Title;
+        existingItem.Description = item.Description;
 
                 SolumbaInfoRepository.Instance.UpdateItem(existingItem);
-            }
-
-            return RedirectToDefaultRoute();
-        }
-
-        [ModuleAction(ControlKey = "Edit", TitleKey = "AddItem")]
-        public ActionResult Index()
-        {
-            var items = SolumbaInfoRepository.Instance.GetItems(ModuleContext.ModuleId);
-            return View(items);
-        }
     }
+
+    return RedirectToDefaultRoute();
+}
+
+[ModuleAction(ControlKey = "Edit", TitleKey = "AddItem")]
+public ActionResult Index()
+{
+    var items = SolumbaInfoRepository.Instance.GetItems(ModuleContext.ModuleId);
+    return View(items);
+}
+}
 }

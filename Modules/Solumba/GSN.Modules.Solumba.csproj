@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A0AF53CF-4788-45F8-BAF8-81B46DE71A17}</ProjectGuid>
+    <ProjectGuid>{0677760C-8B15-45DB-A13B-C8B14D5CE5BA}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -151,9 +151,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Solumba\Edit.cshtml" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -161,9 +159,6 @@
     <Content Include="Views\Example\Index.cshtml" />
     <Content Include="Views\Example\Edit.cshtml" />
     <Content Include="Views\Settings\Settings.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Solumba\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
