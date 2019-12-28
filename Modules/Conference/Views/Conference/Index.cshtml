@@ -2,8 +2,12 @@
 
 @using System.Text.RegularExpressions
 @using DotNetNuke.Web.Mvc.Helpers 
+@using System.Linq
+
+<h2>World Hello</h2>
 
 <div id="Items-@Dnn.ModuleContext.ModuleId"> 
+
     @if (Model == null || !Model.Any()) 
 	{ 
 		<p>@Dnn.LocalizeString("NoItems")</p> 
