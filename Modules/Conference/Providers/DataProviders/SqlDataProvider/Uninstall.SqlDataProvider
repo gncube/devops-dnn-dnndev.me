@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+Conference Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}GSN_Conference]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}GSN_Conference];
+GO
+
+/*
+
+END OF FILE
+
+*/
