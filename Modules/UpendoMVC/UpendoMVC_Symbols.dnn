@@ -3,7 +3,7 @@
   <packages>
     <package name="GSN.Modules.UpendoMVC_Symbols" type="Library" version="01.00.00">
       <friendlyName>UpendoMVC Module Symbols</friendlyName>
-      <description><![CDATA[MVC module using upendo]]></description>
+      <description><![CDATA[6th attempt]]></description>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>

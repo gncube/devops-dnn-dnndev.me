@@ -1,7 +1,7 @@
 {
   "name": "GSN.Modules.UpendoMVC",
   "version": "01.00.00",
-  "description": "MVC module using upendo",
+  "description": "6th attempt",
   "dnnModule": {
     "fullName": "GSN.Modules.UpendoMVC",
     "friendlyName": "UpendoMVC Module",

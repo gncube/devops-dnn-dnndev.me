@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="GSN.Modules.UpendoMVC" type="Module" version="02.00.00">
+    <package name="GSN.Modules.UpendoMVC" type="Module" version="01.00.00">
       <friendlyName>UpendoMVC Module</friendlyName>
       <description>
-        <![CDATA[<p>MVC module using upendo</p>]]>
+        <![CDATA[<p>6th attempt</p>]]>
       </description>
-      <iconFile>DesktopModules/MVC/GSN/UpendoMVC/Images/logo.png</iconFile>
+      <iconFile>DesktopModules/MVC/GSN.Modules.UpendoMVC/Images/logo.png</iconFile>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
@@ -22,7 +22,7 @@
       <components>
         <component type="Script">
           <scripts>
-            <basePath>DesktopModules\MVC\GSN\UpendoMVC</basePath>
+            <basePath>DesktopModules\MVC\GSN.Modules.UpendoMVC</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>01.00.00.SqlDataProvider</name>
@@ -105,7 +105,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/MVC/GSN/UpendoMVC</basePath>
+            <basePath>DesktopModules/MVC/GSN.Modules.UpendoMVC</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>

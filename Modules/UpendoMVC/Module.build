@@ -1,6 +1,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ModulePath>GSN/UpendoMVC</ModulePath>
+    <ModulePath>GSN.Modules.UpendoMVC</ModulePath>
     <DNNFileName>UpendoMVC</DNNFileName>
     <PackageName>GSN.UpendoMVC</PackageName>
     <Extension>zip</Extension>
