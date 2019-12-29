@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UpendoMVC Modules Extension for DNN")]
-[assembly: AssemblyDescription("MVC module using upendo")]
+[assembly: AssemblyTitle("ConferenceMVC Modules Extension for DNN")]
+[assembly: AssemblyDescription("First try MVC")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GSN")]
-[assembly: AssemblyProduct("UpendoMVC Modules Extension for DNN")]
+[assembly: AssemblyProduct("ConferenceMVC Modules Extension for DNN")]
 [assembly: AssemblyCopyright("Copyright 2019 GSN")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("D5021220-8C69-4FAA-8A7C-E041B256B1C4")]
+[assembly: Guid("46E5E9A4-80AF-4FBB-9EFE-CC320B723248")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("02.00.00")]
-[assembly: AssemblyFileVersion("02.00.00")]
+[assembly: AssemblyVersion("01.00.00")]
+[assembly: AssemblyFileVersion("01.00.00")]

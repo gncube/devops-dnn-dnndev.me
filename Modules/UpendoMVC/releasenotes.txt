@@ -1,8 +1,8 @@
 
 <h2>UpendoMVC Modules Extension for DNN</h2>
-<p>Version 01.00.00</p>
+<p>Version 02.00.00</p>
 <ul>
 	<li>First update</li>
-	<li>Second update</li>
+	<li>Second update moved the install to the GSN folder</li>
 	<li>Another update</li>
 </ul>

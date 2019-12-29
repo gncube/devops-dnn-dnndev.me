@@ -1,0 +1,44 @@
+/*
+
+INSTALL SQL PROVIDER SCRIPT
+
+ConferenceMVC Extension for DNN
+
+Release Notes:
+ - This script does this
+ - And this
+ - and this
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}GSN_Example]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}GSN_Example];
+GO
+
+CREATE TABLE {databaseOwner}[{objectQualifier}GSN_Example] (
+    [ExampleId] INT IDENTITY(1,1) 
+        CONSTRAINT [PK_{objectQualifier}GSN_Example] PRIMARY KEY CLUSTERED, 
+    [ModuleId] INT NOT NULL 
+        CONSTRAINT [FK_{objectQualifier}GSN_Example_ModuleId] FOREIGN KEY 
+        REFERENCES {databaseOwner}[{objectQualifier}Modules] ([ModuleId]) ON DELETE CASCADE, 
+    [Title] NVARCHAR(100) NOT NULL, 
+    [Description] NVARCHAR(1000) NOT NULL, 
+    [CreatedOnDate] DATETIME NOT NULL, 
+    [CreatedByUserId] INT NOT NULL, 
+    [LastUpdatedOnDate] DATETIME NOT NULL, 
+    [LastUpdatedByUserId] INT NOT NULL
+);
+GO
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Example_ModuleId] ON {databaseOwner}[{objectQualifier}GSN_Example] ([ModuleId]);
+GO
+
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Example_CreatedByUser] ON {databaseOwner}[{objectQualifier}GSN_Example] ([CreatedByUserId]);
+GO
+
+/*
+
+END OF FILE
+
+*/
