@@ -33,8 +33,6 @@ GO
 CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Example_ModuleId] ON {databaseOwner}[{objectQualifier}GSN_Example] ([ModuleId]);
 GO
 
-CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Example_CodeCampId_ModuleId] ON {databaseOwner}[{objectQualifier}GSN_Example] ([ExampleId],[ModuleId]);
-GO
 
 CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Example_CreatedByUser] ON {databaseOwner}[{objectQualifier}GSN_Example] ([CreatedByUserId]);
 GO

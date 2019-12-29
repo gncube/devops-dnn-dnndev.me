@@ -4,7 +4,7 @@
     <package name="GSN.Modules.Conference" type="Module" version="01.00.00">
       <friendlyName>Conference Module</friendlyName>
       <description>
-        <![CDATA[<p>MVC module second attempt</p>]]>
+        <![CDATA[<p>5th MVC attempt</p>]]>
       </description>
       <iconFile>DesktopModules/MVC/GSN/Conference/Images/logo.png</iconFile>
       <owner>

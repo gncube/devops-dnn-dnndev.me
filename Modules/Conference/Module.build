@@ -1,6 +1,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ModulePath>GSN.Modules.Conference</ModulePath>
+    <ModulePath>GSN\Conference</ModulePath>
     <DNNFileName>Conference</DNNFileName>
     <PackageName>GSN.Conference</PackageName>
     <Extension>zip</Extension>

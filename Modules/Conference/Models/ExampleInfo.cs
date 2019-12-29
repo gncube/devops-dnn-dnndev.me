@@ -1,4 +1,3 @@
-
 using DotNetNuke.ComponentModel.DataAnnotations;
 using System;
 using System.Web.Caching;
@@ -14,25 +13,25 @@ namespace GSN.Modules.Conference.Models
     [Scope("ModuleId")]
     public class ExampleInfo : IExampleInfo
     {
-        public ExampleInfo()
-        {
-            ExampleId = -1;
-        }
+      public ExampleInfo()
+      {
+        ExampleId = -1;
+      }
 
-        public int ExampleId { get; set; }
+      public int ExampleId { get; set; }
 
-        public int ModuleId { get; set; }
+      public int ModuleId { get; set; }
 
-        public string Title { get; set; }
+      public string Title { get; set; }
 
-        public string Description { get; set; }
+      public string Description { get; set; }
 
-        public int CreatedByUserId { get; set; }
+      public int CreatedByUserId { get; set; }
 
-        public DateTime CreatedOnDate { get; set; }
+      public DateTime CreatedOnDate { get; set; }
 
-        public int LastUpdatedByUserId { get; set; }
+      public int LastUpdatedByUserId { get; set; }
 
-        public DateTime LastUpdatedOnDate { get; set; }
+      public DateTime LastUpdatedOnDate { get; set; }
     }
 }

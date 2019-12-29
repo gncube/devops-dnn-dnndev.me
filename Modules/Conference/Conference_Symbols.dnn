@@ -3,7 +3,7 @@
   <packages>
     <package name="GSN.Modules.Conference_Symbols" type="Library" version="01.00.00">
       <friendlyName>Conference Module Symbols</friendlyName>
-      <description><![CDATA[MVC module second attempt]]></description>
+      <description><![CDATA[5th MVC attempt]]></description>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
