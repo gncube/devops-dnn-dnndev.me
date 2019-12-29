@@ -4,14 +4,14 @@
     <package name="GSN.Modules.Conference" type="Module" version="01.00.00">
       <friendlyName>Conference Module</friendlyName>
       <description>
-        <![CDATA[<p>MVC module using gsndnn</p>]]>
+        <![CDATA[<p>MVC module second attempt</p>]]>
       </description>
-      <iconFile>DesktopModules/MVC/GSN.Modules.Conference/Images/logo.png</iconFile>
+      <iconFile>DesktopModules/MVC/GSN/Conference/Images/logo.png</iconFile>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
-        <url><![CDATA[<a href="https://geraldncube.co.uk" target="_blank">https://geraldncube.co.uk</a>]]></url>
-        <email><![CDATA[<a href="mailto:me@geraldncube.co.uk" target="_blank">me@geraldncube.co.uk</a>]]></email>
+        <url>https://geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>
       </owner>
       <license src="License.txt" />
       <releaseNotes src="ReleaseNotes.txt" />
@@ -22,7 +22,7 @@
       <components>
         <component type="Script">
           <scripts>
-            <basePath>DesktopModules\MVC\GSN.Modules.Conference</basePath>
+            <basePath>DesktopModules\MVC\GSN\Conference</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>01.00.00.SqlDataProvider</name>
@@ -39,7 +39,7 @@
         <component type="Module">
           <desktopModule>
             <moduleName>Conference Module</moduleName>
-            <foldername>GSN.Modules.Conference</foldername>
+            <foldername>Conference</foldername>
             <businessControllerClass>GSN.Modules.Conference.Components.ConferenceController, GSN.Modules.Conference</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
@@ -105,7 +105,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/MVC/GSN.Modules.Conference</basePath>
+            <basePath>DesktopModules/MVC/GSN/Conference</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>

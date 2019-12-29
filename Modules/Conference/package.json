@@ -1,7 +1,7 @@
 {
   "name": "GSN.Modules.Conference",
   "version": "01.00.00",
-  "description": "MVC module using gsndnn",
+  "description": "MVC module second attempt",
   "dnnModule": {
     "fullName": "GSN.Modules.Conference",
     "friendlyName": "Conference Module",
