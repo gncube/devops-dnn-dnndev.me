@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="GSN.Modules.Conference" type="Module" version="01.00.00">
-      <friendlyName>Conference Module</friendlyName>
+    <package name="GSN.Modules.UpendoMVC" type="Module" version="01.00.00">
+      <friendlyName>UpendoMVC Module</friendlyName>
       <description>
-        <![CDATA[<p>MVC module using gsndnn</p>]]>
+        <![CDATA[<p>MVC module using upendo</p>]]>
       </description>
-      <iconFile>DesktopModules/MVC/GSN.Modules.Conference/Images/logo.png</iconFile>
+      <iconFile>DesktopModules/MVC/GSN.Modules.UpendoMVC/Images/logo.png</iconFile>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
@@ -22,7 +22,7 @@
       <components>
         <component type="Script">
           <scripts>
-            <basePath>DesktopModules\MVC\GSN.Modules.Conference</basePath>
+            <basePath>DesktopModules\MVC\GSN.Modules.UpendoMVC</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>01.00.00.SqlDataProvider</name>
@@ -38,18 +38,18 @@
 
         <component type="Module">
           <desktopModule>
-            <moduleName>Conference Module</moduleName>
-            <foldername>GSN.Modules.Conference</foldername>
-            <businessControllerClass>GSN.Modules.Conference.Components.ConferenceController, GSN.Modules.Conference</businessControllerClass>
+            <moduleName>UpendoMVC Module</moduleName>
+            <foldername>GSN.Modules.UpendoMVC</foldername>
+            <businessControllerClass>GSN.Modules.UpendoMVC.Components.UpendoMVCController, GSN.Modules.UpendoMVC</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>Conference Module</friendlyName>
+                <friendlyName>UpendoMVC Module</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>GSN.Modules.Conference.Controllers/Example/Index.mvc</controlSrc>
+                    <controlSrc>GSN.Modules.UpendoMVC.Controllers/Example/Index.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle />
                     <controlType>View</controlType>
@@ -59,9 +59,9 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Edit</controlKey>
-                    <controlSrc>GSN.Modules.Conference.Controllers/Example/Edit.mvc</controlSrc>
+                    <controlSrc>GSN.Modules.UpendoMVC.Controllers/Example/Edit.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>Edit Conference Content</controlTitle>
+                    <controlTitle>Edit UpendoMVC Content</controlTitle>
                     <controlType>Edit</controlType>
                     <iconFile />
                     <helpUrl />
@@ -70,9 +70,9 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Settings</controlKey>
-                    <controlSrc>GSN.Modules.Conference.Controllers/Settings/Settings.mvc</controlSrc>
+                    <controlSrc>GSN.Modules.UpendoMVC.Controllers/Settings/Settings.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>Conference Settings</controlTitle>
+                    <controlTitle>UpendoMVC Settings</controlTitle>
                     <controlType>Edit</controlType>
                     <iconFile />
                     <helpUrl />
@@ -86,7 +86,7 @@
             <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
             <processorCommand>UpgradeModule</processorCommand>
             <attributes>
-              <businessControllerClass>GSN.Modules.Conference.Components.ConferenceController, GSN.Modules.Conference</businessControllerClass>
+              <businessControllerClass>GSN.Modules.UpendoMVC.Components.UpendoMVCController, GSN.Modules.UpendoMVC</businessControllerClass>
               <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
               <upgradeVersionsList>01.00.00</upgradeVersionsList>
             </attributes>
@@ -96,7 +96,7 @@
         <component type="Assembly">
           <assemblies>
             <assembly>
-              <name>GSN.Modules.Conference.dll</name>
+              <name>GSN.Modules.UpendoMVC.dll</name>
               <path>bin</path>
               <version>01.00.00</version>
             </assembly>
@@ -105,7 +105,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/MVC/GSN.Modules.Conference</basePath>
+            <basePath>DesktopModules/MVC/GSN.Modules.UpendoMVC</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>

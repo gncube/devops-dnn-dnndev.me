@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BF5F49DB-6858-4E0B-BF62-64452F5362F8}</ProjectGuid>
+    <ProjectGuid>{D5021220-8C69-4FAA-8A7C-E041B256B1C4}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GSN.Modules.Conference</RootNamespace>
-    <AssemblyName>GSN.Modules.Conference</AssemblyName>
+    <RootNamespace>GSN.Modules.UpendoMVC</RootNamespace>
+    <AssemblyName>GSN.Modules.UpendoMVC</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
@@ -32,7 +32,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>bin\GSN.Modules.Conference.xml</DocumentationFile>
+    <DocumentationFile>bin\GSN.Modules.UpendoMVC.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,7 +42,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>bin\GSN.Modules.Conference.xml</DocumentationFile>
+    <DocumentationFile>bin\GSN.Modules.UpendoMVC.xml</DocumentationFile>
   </PropertyGroup>
   <Import Project="..\..\Build\SolutionReferences.targets" />
   <ItemGroup>
@@ -130,13 +130,13 @@
     <Content Include="Images\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Conference.dnn">
+    <Content Include="UpendoMVC.dnn">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Module.build">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Conference_Symbols.dnn">
+    <Content Include="UpendoMVC_Symbols.dnn">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>

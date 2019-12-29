@@ -3,9 +3,9 @@ using System;
 
 namespace GSN.Modules.Conference.Models
 {
-    public interface IConferenceInfo
+    public interface IExampleInfo
     {
-        int ConferenceId { get; set; }
+        int ExampleId { get; set; }
         int ModuleId { get; set; }
         string Title { get; set; }
         string Description { get; set; }

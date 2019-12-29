@@ -5,21 +5,21 @@ using System.Web.Caching;
 
 namespace GSN.Modules.Conference.Models
 {
-    [TableName("GSN_Conference")]
+    [TableName("GSN_Example")]
     //setup the primary key for table
-    [PrimaryKey("ConferenceId", AutoIncrement = true)]
+    [PrimaryKey("ExampleId", AutoIncrement = true)]
     //configure caching using PetaPoco
-    [Cacheable("ConferenceInfo", CacheItemPriority.Default, 20)]
+    [Cacheable("ExampleInfo", CacheItemPriority.Default, 20)]
     //scope the objects to the ModuleId of a module on a page (or copy of a module on a page)
     [Scope("ModuleId")]
-    public class ConferenceInfo : IConferenceInfo
+    public class ExampleInfo : IExampleInfo
     {
-        public ConferenceInfo()
+        public ExampleInfo()
         {
-            ConferenceId = -1;
+            ExampleId = -1;
         }
 
-        public int ConferenceId { get; set; }
+        public int ExampleId { get; set; }
 
         public int ModuleId { get; set; }
 

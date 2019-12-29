@@ -1,4 +1,4 @@
-@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage<GSN.Modules.Conference.Models.ConferenceInfo>
+@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage<GSN.Modules.Conference.Models.ExampleInfo>
 
 @using System.Collections.Generic
 @using DotNetNuke.Web.Mvc.Helpers
@@ -19,7 +19,7 @@
                 <div><label for="description">@Dnn.LocalizeString("lblDescription")</label></div>
                 @Html.TextArea("description", Model.Description)
             </div>
-            @Html.HiddenFor(m => m.ConferenceId)
+            @Html.HiddenFor(m => m.ExampleId)
             @Html.HiddenFor(m => m.ModuleId)
         </fieldset>
     </div>
