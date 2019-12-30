@@ -39,7 +39,7 @@
         <component type="Module">
           <desktopModule>
             <moduleName>DemoMVC Module</moduleName>
-            <foldername>GSN/DemoMVC</foldername>
+            <foldername>DemoMVC</foldername>
             <businessControllerClass>GSN.Modules.DemoMVC.Components.DemoMVCController, GSN.Modules.DemoMVC</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
