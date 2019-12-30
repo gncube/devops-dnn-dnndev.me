@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+DemoWF Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}GSN_DemoWF]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}GSN_DemoWF];
+GO
+
+/*
+
+END OF FILE
+
+*/
