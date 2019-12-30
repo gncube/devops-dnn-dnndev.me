@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Search SkinObjects Extension for DNN")]
-[assembly: AssemblyDescription("Search skinobject")]
+[assembly: AssemblyTitle("FamilyTree Libraries Extension for DNN")]
+[assembly: AssemblyDescription("Family tree library")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GSN")]
-[assembly: AssemblyProduct("Search SkinObjects Extension for DNN")]
+[assembly: AssemblyProduct("FamilyTree Libraries Extension for DNN")]
 [assembly: AssemblyCopyright("Copyright 2019 GSN")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("A9D4DE0B-7239-40B9-BDAC-4E247C0B8C8E")]
+[assembly: Guid("61B6658B-67C2-4C93-85BF-F88EC2DB03F7")]
 
 // Version information for an assembly consists of the following four values:
 //
