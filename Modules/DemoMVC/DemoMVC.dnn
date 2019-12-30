@@ -4,7 +4,7 @@
     <package name="GSN.Modules.DemoMVC" type="Module" version="01.00.00">
       <friendlyName>DemoMVC Module</friendlyName>
       <description>
-        <![CDATA[<p>Second take</p>]]>
+        <![CDATA[<p>MVC module 11th take</p>]]>
       </description>
       <iconFile>DesktopModules/MVC/GSN/DemoMVC/Images/logo.png</iconFile>
       <owner>
@@ -39,7 +39,7 @@
         <component type="Module">
           <desktopModule>
             <moduleName>DemoMVC Module</moduleName>
-            <foldername>DemoMVC</foldername>
+            <foldername>GSN/DemoMVC</foldername>
             <businessControllerClass>GSN.Modules.DemoMVC.Components.DemoMVCController, GSN.Modules.DemoMVC</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>

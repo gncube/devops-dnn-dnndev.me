@@ -1,7 +1,7 @@
 {
   "name": "GSN.Modules.DemoMVC",
   "version": "01.00.00",
-  "description": "Second take",
+  "description": "MVC module 11th take",
   "dnnModule": {
     "fullName": "GSN.Modules.DemoMVC",
     "friendlyName": "DemoMVC Module",
