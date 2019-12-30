@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DemoMVC Modules Extension for DNN")]
-[assembly: AssemblyDescription("Demo mvc")]
+[assembly: AssemblyDescription("Second take")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("GSN")]
 [assembly: AssemblyProduct("DemoMVC Modules Extension for DNN")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("BCCC1AD9-CBE6-4320-BAE5-D2B06D1C739C")]
+[assembly: Guid("D3AF6C94-6BA0-4524-9E55-410F5DD61763")]
 
 // Version information for an assembly consists of the following four values:
 //

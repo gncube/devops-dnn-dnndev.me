@@ -3,7 +3,7 @@
   <packages>
     <package name="GSN.Modules.DemoMVC_Symbols" type="Library" version="01.00.00">
       <friendlyName>DemoMVC Module Symbols</friendlyName>
-      <description><![CDATA[Demo mvc]]></description>
+      <description><![CDATA[Second take]]></description>
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
