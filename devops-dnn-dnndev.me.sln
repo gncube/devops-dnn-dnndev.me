@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Libraries.FamilyTree", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.SkinObjects.Search", "SkinObjects\Search\GSN.SkinObjects.Search.csproj", "{A9D4DE0B-7239-40B9-BDAC-4E247C0B8C8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.Documents", "Modules\Documents\GSN.Modules.Documents.csproj", "{3E530228-3F60-447D-BEC8-96B0B78BBE51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{A9D4DE0B-7239-40B9-BDAC-4E247C0B8C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D4DE0B-7239-40B9-BDAC-4E247C0B8C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D4DE0B-7239-40B9-BDAC-4E247C0B8C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E530228-3F60-447D-BEC8-96B0B78BBE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E530228-3F60-447D-BEC8-96B0B78BBE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E530228-3F60-447D-BEC8-96B0B78BBE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E530228-3F60-447D-BEC8-96B0B78BBE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{FB31FD32-118D-4C01-94A8-3E78B7A6E27D} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 		{61B6658B-67C2-4C93-85BF-F88EC2DB03F7} = {1F828F98-2015-4EAD-8296-EABDD9EA4880}
 		{A9D4DE0B-7239-40B9-BDAC-4E247C0B8C8E} = {7722B241-C88C-4BBA-973F-32D755BE9C08}
+		{3E530228-3F60-447D-BEC8-96B0B78BBE51} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7bc66ef2-d8a9-47f2-a316-16d3ba67f2e7}
