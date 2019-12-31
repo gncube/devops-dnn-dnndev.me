@@ -1,0 +1,44 @@
+/*
+
+INSTALL SQL PROVIDER SCRIPT
+
+Documents Extension for DNN
+
+Release Notes:
+ - This script does this
+ - And this
+ - and this
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}GSN_Documents]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}GSN_Documents];
+GO
+
+CREATE TABLE {databaseOwner}[{objectQualifier}GSN_Documents] (
+    [ItemId] INT IDENTITY(1,1) 
+        CONSTRAINT [PK_{objectQualifier}GSN_Documents] PRIMARY KEY CLUSTERED, 
+    [ModuleId] INT NOT NULL 
+        CONSTRAINT [FK_{objectQualifier}GSN_Documents_ModuleId] FOREIGN KEY 
+        REFERENCES {databaseOwner}[{objectQualifier}Modules] ([ModuleId]) ON DELETE CASCADE, 
+    [Title] NVARCHAR(100) NOT NULL, 
+    [Description] NVARCHAR(1000) NOT NULL, 
+    [CreatedOnDate] DATETIME NOT NULL, 
+    [CreatedByUserId] INT NOT NULL, 
+    [LastModifiedOnDate] DATETIME NOT NULL, 
+    [LastModifiedByUserId] INT NOT NULL
+);
+GO
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Documents_ModuleId] ON {databaseOwner}[{objectQualifier}GSN_Documents] ([ModuleId]);
+GO
+
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}GSN_Documents_CreatedByUser] ON {databaseOwner}[{objectQualifier}GSN_Documents] ([CreatedByUserId]);
+GO
+
+/*
+
+END OF FILE
+
+*/
