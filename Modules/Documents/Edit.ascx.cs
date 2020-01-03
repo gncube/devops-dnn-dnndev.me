@@ -6,8 +6,10 @@ using DotNetNuke.Security;
 using GSN.Modules.Documents.Entities;
 using System.Web;
 using DotNetNuke.Services.FileSystem;
+using DotNetNuke.Security.Permissions;
 using DotNetNuke.Security.Roles;
 using DotNetNuke.Common;
+using System.Linq;
 
 namespace GSN.Modules.Documents
 {
@@ -129,7 +131,8 @@ namespace GSN.Modules.Documents
                     dc.CreateItem(d);
                 }
                 //Response.Redirect(DotNetNuke.Common.Globals.NavigateURL());
-                Response.Redirect(Globals.NavigateURL(PortalSettings.ActiveTab.TabID, PortalSettings, string.Empty , "groupId=" + GroupId.ToString()));
+                //Response.Redirect(Globals.NavigateURL(PortalSettings.ActiveTab.TabID, PortalSettings, string.Empty , "groupId=" + GroupId.ToString()));
+                Response.Redirect(Globals.NavigateURL(37, PortalSettings, string.Empty, "groupId=" + GroupId.ToString()));
 
             }
         }
@@ -164,7 +167,30 @@ namespace GSN.Modules.Documents
             {
                 var role = RoleController.Instance.GetRoleById(PortalId, groupId);
                 var fo = FolderManager.Instance.GetFolder(PortalId, groupFolderPath);
-                groupFileId = fc.AddFile(fo, FileUploadControl.PostedFile.FileName, FileUploadControl.PostedFile.InputStream, false, true, FileUploadControl.PostedFile.ContentType).FileId;
+
+                if (fo != null)
+                {
+                    groupFileId = fc.AddFile(fo, FileUploadControl.PostedFile.FileName, FileUploadControl.PostedFile.InputStream, false, true, FileUploadControl.PostedFile.ContentType).FileId;
+                }
+                else
+                {
+                    var pc = new PermissionController();
+                    var browsePermission = pc.GetPermissionByCodeAndKey("SYSTEM_FOLDER", "BROWSE").Cast<PermissionInfo>().FirstOrDefault();
+                    var readPermission = pc.GetPermissionByCodeAndKey("SYSTEM_FOLDER", "READ").Cast<PermissionInfo>().FirstOrDefault();
+                    var writePermission = pc.GetPermissionByCodeAndKey("SYSTEM_FOLDER", "WRITE").Cast<PermissionInfo>().FirstOrDefault();
+
+
+                    var groupFolder = FolderManager.Instance.AddFolder(PortalId, groupFolderPath);
+
+                    groupFolder.FolderPermissions.Add(new FolderPermissionInfo(browsePermission) { FolderPath = groupFolder.FolderPath, RoleID = groupId, AllowAccess = true });
+                    groupFolder.FolderPermissions.Add(new FolderPermissionInfo(readPermission) { FolderPath = groupFolder.FolderPath, RoleID = groupId, AllowAccess = true });
+                    groupFolder.FolderPermissions.Add(new FolderPermissionInfo(writePermission) { FolderPath = groupFolder.FolderPath, RoleID = groupId, AllowAccess = true });
+
+                    groupFolder.IsProtected = true;
+                    FolderManager.Instance.UpdateFolder(groupFolder);
+
+                    groupFileId = fc.AddFile(groupFolder, FileUploadControl.PostedFile.FileName, FileUploadControl.PostedFile.InputStream, false, true, FileUploadControl.PostedFile.ContentType).FileId;
+                }
 
             }                
 

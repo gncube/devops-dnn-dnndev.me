@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="GSN.Modules.Documents_Symbols" type="Library" version="03.00.01">
+    <package name="GSN.Modules.Documents_Symbols" type="Library" version="03.00.02">
       <friendlyName>Documents Module Symbols</friendlyName>
       <description><![CDATA[Simple documents module using gsndnn template]]></description>
       <owner>
