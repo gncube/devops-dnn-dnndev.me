@@ -130,7 +130,7 @@
     <value>Add New Document</value>
   </data>
   <data name="NoRecords.Text" xml:space="preserve">
-    <value>The menu is empty.  Click Add Item from the context menu to start adding items.</value>
+    <value>There are no NA uploads at the moment. Go ahead and upload your completed file.</value>
   </data>
   <data name="DeleteItem.Text" xml:space="preserve">
     <value>Delete</value>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="GSN.Modules.Documents" type="Module" version="03.00.02">
+    <package name="GSN.Modules.Documents" type="Module" version="03.00.03">
       <friendlyName>Documents Module</friendlyName>
       <description>Simple documents module using gsndnn template</description>
       <iconFile>DesktopModules/GSN/Documents/Images/logo.png</iconFile>
