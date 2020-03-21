@@ -2,7 +2,7 @@
 <dotnetnuke type="Package" version="6.0">
   <packages>
     <package name="GSN.Modules.Sermon" type="Module" version="01.00.00">
-      <friendlyName>Sermon WF Module</friendlyName>
+      <friendlyName>GSN: Sermon </friendlyName>
       <description>
         <![CDATA[<p>Sermon on the mount</p>]]>
       </description>
@@ -10,8 +10,8 @@
       <owner>
         <name>GSN</name>
         <organization>GSN</organization>
-        <url><![CDATA[<a href="https://geraldncube.co.uk" target="_blank">https://geraldncube.co.uk</a>]]></url>
-        <email><![CDATA[<a href="mailto:me@geraldncube.co.uk" target="_blank">me@geraldncube.co.uk</a>]]></email>
+        <url>https://geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>
       </owner>
       <license src="License.txt" />
       <releaseNotes src="ReleaseNotes.txt" />

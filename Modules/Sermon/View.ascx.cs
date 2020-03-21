@@ -5,11 +5,15 @@ using DotNetNuke.Services.Exceptions;
 using System;
 using System.Web.UI;
 using GSN.Modules.Sermon.Components;
+using GSN.Modules.Sermon.Entities;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace GSN.Modules.Sermon
 {
     public partial class View : SermonModuleBase, IActionable
     {
+        private bool _hasRecords;
         #region Event Handlers
 
         protected void Page_Load(object sender, EventArgs e)
@@ -34,9 +38,13 @@ namespace GSN.Modules.Sermon
 
         private void BindModule()
         {
+            var tc = new SermonInfoRepository();
+            IEnumerable<SermonInfo> items = tc.GetItems(ModuleId);
+            _hasRecords = items.Any();
+            rptItemList.DataSource = items;
+            rptItemList.DataBind();
+            
             LocalizeModule();
-			
-			
         }
         
         private void LocalizeModule()
