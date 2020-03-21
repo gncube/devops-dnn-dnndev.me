@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="GSN.Modules.Sermon_Symbols" type="Library" version="01.00.00">
+      <friendlyName>Sermon Module Symbols</friendlyName>
+      <description><![CDATA[Sermon on the mount]]></description>
+      <owner>
+        <name>GSN</name>
+        <organization>GSN</organization>
+        <url>https://geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>
+      </owner>
+      <license src="License.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <azureCompatible>True</azureCompatible>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath></basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

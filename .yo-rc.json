@@ -3,7 +3,11 @@
     "promptValues": {
       "dnnHost": "http://devops-dnn-dnndev.me/",
       "dnnRoot": "D:\\WORK\\geraldn3\\devops-dnn-dnndev.me",
-      "companyName": "G S N"
+      "companyName": "G S N",
+      "company": "G S N",
+      "objectPrefix": "GSN",
+      "companyUrl": "https://geraldncube.co.uk",
+      "emailAddy": "me@geraldncube.co.uk"
     }
   }
 }

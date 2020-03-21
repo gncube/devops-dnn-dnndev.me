@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+Announcements Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}GSN_Announcements]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}GSN_Announcements];
+GO
+
+/*
+
+END OF FILE
+
+*/
