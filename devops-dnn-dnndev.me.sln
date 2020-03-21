@@ -29,24 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skins", "Skins", "{EAE79EDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viewsets", "Viewsets", "{C5228275-B3D3-4550-A755-98F70CDCEA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSN.Modules.NAUploads", "Modules\NAUploads\GSN.Modules.NAUploads.csproj", "{39ED384F-3A70-41B2-BB13-D62C238D387D}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39ED384F-3A70-41B2-BB13-D62C238D387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39ED384F-3A70-41B2-BB13-D62C238D387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39ED384F-3A70-41B2-BB13-D62C238D387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39ED384F-3A70-41B2-BB13-D62C238D387D}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{39ED384F-3A70-41B2-BB13-D62C238D387D} = {70FB7EDF-2E12-405F-B9CD-8A437E96FB11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {bdc57848-d85e-4385-b6ce-e42b50fae699}
