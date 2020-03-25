@@ -1,0 +1,12 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path>bin/</path>
+      <name>GSN.Modules.Announcements.pdb</name>
+    </file>
+    <file>
+      <path>bin/</path>
+      <name>GSN.Modules.Announcements.xml</name>
+    </file>
+  </files>
+</dotnetnuke>

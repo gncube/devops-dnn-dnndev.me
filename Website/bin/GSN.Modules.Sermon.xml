@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GSN.Modules.Sermon</name>
+    </assembly>
+    <members>
+        <member name="F:GSN.Modules.Sermon.Edit.lblTitle">
+            <summary>
+            lblTitle control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.txtTitle">
+            <summary>
+            txtTitle control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.rqValTitle">
+            <summary>
+            rqValTitle control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.lblDescription">
+            <summary>
+            lblDescription control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.txtDescription">
+            <summary>
+            txtDescription control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.rqValDescription">
+            <summary>
+            rqValDescription control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.btnSubmit">
+            <summary>
+            btnSubmit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Edit.btnCancel">
+            <summary>
+            btnCancel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:GSN.Modules.Sermon.Settings.LoadSettings">
+            <summary>
+            LoadSettings loads the settings from the Database and displays them
+            </summary>
+        </member>
+        <member name="M:GSN.Modules.Sermon.Settings.UpdateSettings">
+            <summary>
+            UpdateSettings saves the modified settings to the Database
+            </summary>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblPostUrl">
+            <summary>
+            lblPostUrl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblPostUrlValue">
+            <summary>
+            lblPostUrlValue control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblOid">
+            <summary>
+            lblOid control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtOid">
+            <summary>
+            txtOid control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblReturnUrl">
+            <summary>
+            lblReturnUrl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtReturnUrl">
+            <summary>
+            txtReturnUrl control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblDebugMode">
+            <summary>
+            lblDebugMode control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkDebugMode">
+            <summary>
+            chkDebugMode control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.divDebugEmail">
+            <summary>
+            divDebugEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblDebugEmail">
+            <summary>
+            lblDebugEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtDebugEmail">
+            <summary>
+            txtDebugEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.rfvDebugEmail">
+            <summary>
+            rfvDebugEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.revDebugEmail">
+            <summary>
+            revDebugEmail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblFirstNameDisplay">
+            <summary>
+            lblFirstNameDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkFirstNameDisplay">
+            <summary>
+            chkFirstNameDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblFirstNameRequired">
+            <summary>
+            lblFirstNameRequired control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkFirstNameRequire">
+            <summary>
+            chkFirstNameRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblLastNameDisplay">
+            <summary>
+            lblLastNameDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkLastNameDisplay">
+            <summary>
+            chkLastNameDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblLastNameRequired">
+            <summary>
+            lblLastNameRequired control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkLastNameRequire">
+            <summary>
+            chkLastNameRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblPhoneDisplay">
+            <summary>
+            lblPhoneDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkPhoneDisplay">
+            <summary>
+            chkPhoneDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblPhoneRequire">
+            <summary>
+            lblPhoneRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkPhoneRequire">
+            <summary>
+            chkPhoneRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblCompanyDisplay">
+            <summary>
+            lblCompanyDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkCompanyDisplay">
+            <summary>
+            chkCompanyDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblCompanyRequire">
+            <summary>
+            lblCompanyRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkCompanyRequire">
+            <summary>
+            chkCompanyRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblCityDisplay">
+            <summary>
+            lblCityDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkCityDisplay">
+            <summary>
+            chkCityDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblCityRequire">
+            <summary>
+            lblCityRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkCityRequire">
+            <summary>
+            chkCityRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblRegionDisplay">
+            <summary>
+            lblRegionDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkRegionDisplay">
+            <summary>
+            chkRegionDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblRegionRequire">
+            <summary>
+            lblRegionRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkRegionRequire">
+            <summary>
+            chkRegionRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblDescriptionDisplay">
+            <summary>
+            lblDescriptionDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkDescriptionDisplay">
+            <summary>
+            chkDescriptionDisplay control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblDescriptionRequire">
+            <summary>
+            lblDescriptionRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkDescriptionRequire">
+            <summary>
+            chkDescriptionRequire control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblEnableCaptcha">
+            <summary>
+            lblEnableCaptcha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.chkEnableCaptcha">
+            <summary>
+            chkEnableCaptcha control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.divCaptchaSiteKey">
+            <summary>
+            divCaptchaSiteKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblCaptchaSiteKey">
+            <summary>
+            lblCaptchaSiteKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtCaptchaSiteKey">
+            <summary>
+            txtCaptchaSiteKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.rfvCaptchaSiteKey">
+            <summary>
+            rfvCaptchaSiteKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.divCaptchaSecretKey">
+            <summary>
+            divCaptchaSecretKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblCaptchaSecretKey">
+            <summary>
+            lblCaptchaSecretKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtCaptchaSecretKey">
+            <summary>
+            txtCaptchaSecretKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.rfvCaptchaSecretKey">
+            <summary>
+            rfvCaptchaSecretKey control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblEMail">
+            <summary>
+            lblEMail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtEMail">
+            <summary>
+            txtEMail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.rfvEMail">
+            <summary>
+            rfvEMail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.revEMail">
+            <summary>
+            revEMail control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblTemplateSite">
+            <summary>
+            lblTemplateSite control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtTemplateSite">
+            <summary>
+            txtTemplateSite control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.rfvTemplateSite">
+            <summary>
+            rfvTemplateSite control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.lblTemplateVisitor">
+            <summary>
+            lblTemplateVisitor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.txtTemplateVisitor">
+            <summary>
+            txtTemplateVisitor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:GSN.Modules.Sermon.Settings.rfvTemplateVisitor">
+            <summary>
+            rfvTemplateVisitor control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>

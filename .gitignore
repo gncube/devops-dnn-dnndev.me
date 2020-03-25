@@ -13,7 +13,7 @@
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
+#[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -21,7 +21,7 @@ x64/
 x86/
 #build/
 bld/
-[Bb]in/
+#[Bb]in/
 [Oo]bj/
 
 # Cleanup project results
@@ -213,10 +213,11 @@ $RECYCLE.BIN/
 *.msp
 
 # DNN website
-[Ww]ebsite/
+#[Ww]ebsite/
 
 # DNN Lucene.net index files
 [Ww]ebsite/[Aa]pp_[Dd]ata/[Ss]earch/
+[Ww]ebsite/[Aa]pp_Data/[Cc]lientDependency/
 
 # DNN Logs
 [Ww]ebsite/[Pp]ortals/_default/[Ll]ogs/
