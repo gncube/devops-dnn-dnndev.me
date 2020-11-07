@@ -1,24 +1,11 @@
 {
-  "generator-upendodnn": {
-    "promptValues": {
-      "dnnHost": "https://devops-dnn-dnndev.me",
-      "dnnRoot": "C:\\WORK\\geraldn3\\devops-dnn-dnndev.me",
-      "companyName": "GeraldNcube",
-      "company": "G S N",
-      "objectPrefix": "GSN",
-      "companyUrl": "https://geraldncube.co.uk",
-      "emailAddy": "me@geraldncube.co.uk",
-      "menuLinkName": "Site Users"
-    }
-  },
   "generator-gsndnn": {
     "promptValues": {
-      "dnnHost": "https://devops-dnn-dnndev.me",
-      "dnnRoot": "C:\\WORK\\geraldn3\\devops-dnn-dnndev.me",
+      "yourName": "Gerald Ncube",
       "company": "G S N",
       "companyUrl": "https://geraldncube.co.uk",
       "emailAddy": "me@geraldncube.co.uk",
-      "objectPrefix": "GSN"
+      "companyName": "G S N"
     }
   }
 }

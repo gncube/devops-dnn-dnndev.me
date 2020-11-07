@@ -1,3 +1,0 @@
-<p>FamilyTree Libraries Extension for DNN</p>
-<p>GSN <a href="https://geraldncube.co.uk" target="_blank">https://geraldncube.co.uk</a></p>
-<p>Your License Here</p>

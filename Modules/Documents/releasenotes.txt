@@ -1,8 +1,0 @@
-
-<h2>Documents Modules Extension for DNN</h2>
-<p>Version 03.00.00</p>
-<ul>
-	<li>First update</li>
-	<li>Second update</li>
-	<li>Added GSN\Documents to folder name</li>
-</ul>
